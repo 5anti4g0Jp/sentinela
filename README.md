@@ -174,6 +174,10 @@ Para o scanner e o SIEM terem o que detectar sem usar nada de terceiros:
 Nunca aponte o scanner, o sniffer ou os testes de ataque simulado para
 hosts fora do seu laboratório controlado.
 
+## Projeto complementar: DIO Agent especializado em segurança
+
+A pasta [`dio-agent-mentor/`](dio-agent-mentor/) é um projeto separado dentro deste repositório: uma especialização do [DIO Agent](https://github.com/digitalinnovationone/dio-agent) para o Desafio "Agente de IA para apoiar análise de vulnerabilidades" — um mentor de IA que, a partir só de arquivos em Markdown (sem treinar nenhum modelo), conduz uma análise de vulnerabilidade como um profissional de AppSec: pede o contexto, mapeia a técnica no MITRE ATT&CK, avalia impacto/probabilidade/severidade e orienta a correção sem entregá-la pronta. Veja o [README daquela pasta](dio-agent-mentor/README.md) para instalar e testar.
+
 ## Próximos passos sugeridos
 
 - Trocar SQLite por Postgres (já há `SENTINELA_DB_URL` para isso).

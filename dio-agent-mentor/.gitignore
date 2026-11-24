@@ -1,0 +1,17 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos locais do harness
+.claude/settings.local.json
+.antigravity/
+*.local
+
+# Logs e temporários
+*.log
+.tmp/
+
+# Banco de dados do laboratório (gerado por lab/seed_db.py)
+lab/lab.db
+__pycache__/
+*.pyc
